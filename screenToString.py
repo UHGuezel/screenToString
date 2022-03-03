@@ -2,7 +2,7 @@ import pytesseract
 from PIL import Image
 import os
 
-
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\UgurHasanGuezel\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
